@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #1abc9c;
+    color: white;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hospital-info {
+    display: flex;
+    align-items: center;
+}
+
+.hospital-image {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.info-text h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.info-text p {
+    margin: 5px 0;
+}
+
+.tags {
+    display: flex;
+}
+
+.tag {
+    background-color: white;
+    color: #1abc9c;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.contact-info {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.note {
+    font-size: 14px;
+    color: #e6e6e6;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 32px;
+}
+
+.nav-link:hover {
+    background-color: white;
+    color: #1abc9c;
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column; /* 纵向排列 */
+    align-items: center; /* 水平居中 */
+    justify-content: center; /* 垂直居中（可选） */
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-and-image img {
+    width: 500px; /* 与表单宽度一致 */
+    height: 400px; /* 保持比例 */
+    margin-bottom: 10px; /* 图片与表单之间留点空隙 */
+}
+
+.form-and-image form {
+    width: 500px; /* 固定表单宽度，与图片一致 */
+}
+
+.artistic-text {
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    color: #1abc9c; /* 可自定义颜色 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
